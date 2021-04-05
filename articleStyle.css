@@ -1,0 +1,40 @@
+.header,
+.content {
+  margin: 30px 200px;
+  padding: 10px;
+}
+
+.header {
+  height: 70px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.article_title {
+  height: 70%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.article_info {
+  height: 30%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 10px;
+}
+
+.article_info > .writer,
+.write_time {
+  padding: 0 5px;
+}
+
+.content {
+  min-height: 500px;
+  border-bottom: 1px solid black;
+  padding-bottom: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
